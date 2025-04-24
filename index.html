@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ankit Yadav - Portfolio</title>
+  <style>
+    :root {
+      --bg-color: #121212;
+      --text-color: #f5f5f5;
+      --accent-color: #3498db;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      transition: background-color 0.5s, color 0.5s;
+    }
+    header {
+      background-color: #1f1f1f;
+      color: var(--text-color);
+      padding: 20px;
+      text-align: center;
+      animation: fadeIn 1s ease-in-out;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+      animation: fadeInUp 1s ease-in-out;
+    }
+    h2 {
+      color: var(--accent-color);
+    }
+    ul {
+      padding-left: 20px;
+    }
+    footer {
+      background-color: #1f1f1f;
+      color: var(--text-color);
+      text-align: center;
+      padding: 10px;
+      margin-top: 40px;
+    }
+    .contact-info a, section a {
+      color: var(--accent-color);
+      text-decoration: none;
+    }
+    img.profile {
+      width: 150px;
+      border-radius: 50%;
+      margin-top: 20px;
+      animation: scaleIn 1s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+    @keyframes fadeInUp {
+      from {opacity: 0; transform: translateY(20px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+    @keyframes scaleIn {
+      from {transform: scale(0); opacity: 0;}
+      to {transform: scale(1); opacity: 1;}
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="https://via.placeholder.com/150" alt="Ankit Yadav" class="profile">
+  <h1>Ankit Yadav</h1>
+  <p>Web & UI/UX Designer</p>
+  <p class="contact-info">
+    <a href="mailto:ankityadav912000@gmail.com">ankityadav912000@gmail.com</a> | +91 8307647049 | Kalka, Haryana
+  </p>
+</header>
+
+<section>
+  <h2>About Me</h2>
+  <p>I am a passionate fresher with a love for designing. I enjoy creating user-friendly interfaces and responsive websites. I'm currently learning UI/UX and always exploring new design trends.</p>
+</section>
+
+<section>
+  <h2>Skills</h2>
+  <ul>
+    <li>HTML, CSS, JavaScript (Basic)</li>
+    <li>Figma, Adobe Photoshop</li>
+    <li>Responsive Web Design</li>
+    <li>UI/UX Principles & Thinking</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Projects</h2>
+  <ul>
+    <li><strong>Portfolio Website:</strong> Personal site using HTML & CSS</li>
+    <li><strong>App UI Mockup:</strong> Designed a travel app in Figma</li>
+    <li><strong>Landing Page Redesign:</strong> Reimagined a product page for practice</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Education & Courses</h2>
+  <ul>
+    <li>12th from UP Board (Open Schooling) - 2024</li>
+    <li>Web Designing - ZCA Institute (1 Year Diploma)</li>
+    <li>UI/UX Design - Currently Pursuing</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Contact Me</h2>
+  <p>Email me at <a href="mailto:ankityadav912000@gmail.com">ankityadav912000@gmail.com</a> or call at +91 8307647049</p>
+</section>
+
+<footer>
+  <p>Designed by Ankit Yadav | &copy; 2025</p>
+</footer>
+
+</body>
+</html>
